@@ -10,7 +10,7 @@ export const capitalizeString = (string) =>  string.split(' ').map((NewItem) => 
  * @param {string} string
  * @returns {string}
  */
-export const fenceString = (string) {
+export const fenceString = (string) => {
     return string.split('').map((NewItem, index) => {
       if (index % 2 === 0) {
         return NewItem.toLowerCase();
